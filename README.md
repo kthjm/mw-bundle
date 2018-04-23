@@ -23,6 +23,9 @@
 
 #### parcel
 - [parceljs.org](https://parceljs.org/)
+- [Proxy #55](https://github.com/parcel-bundler/parcel/issues/55)
+- [#middleware](https://parceljs.org/api.html#middleware)
+> Middleware can be used to hook into a http server (e.g. express or node http).
 
 #### poi
 - [poi.js.org](https://poi.js.org/)
