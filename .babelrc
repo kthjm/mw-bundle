@@ -1,0 +1,17 @@
+{
+  "env": {
+    "PARCEL": {
+      "presets": ["env", "react"]
+    },
+    "POI": {
+      "presets": ["poi"],
+      "plugins": ["react-hot-loader/babel"]
+    },
+    "ROLLUP": {
+      "presets": [["env", { "modules": false }], "react"]
+    },
+    "WEBPACK": {
+      "presets": ["env", "react"]
+    }
+  }
+}
