@@ -10,6 +10,7 @@
 |`parcel`|dynamic||✔️|`.html`|✔️|
 |`poi`|dynamic|`webpack`|✔️|`.js`|[`react-hot-loader`](https://github.com/gaearon/react-hot-loader)|
 |`microbundle`|static|`rollup`|✔️|`.js`|❌|
+|`prepack`|?|?|?|?|?|
 
 #### webpack
 - [webpack.js.org](https://webpack.js.org/)
@@ -36,3 +37,6 @@
 > Hmm - it seems a pity to have to add configuration just because React isn't exporting things properly...
 - [Production bundle #115](https://github.com/developit/microbundle/issues/115)
 > For browsers u dont need this. Just use process.env.NODE_ENV checks, do not replace them before publishing and let consumers' bundlers do that.
+
+#### prepack
+- [prepack.io](https://prepack.io/)
