@@ -1,6 +1,9 @@
 # mw-bundle
 
-||type|base|zero-config|entry|hmr|
+![](https://user-images.githubusercontent.com/50838/27757629-93b23ba2-5e21-11e7-8b9c-3a8d69f5b5de.png)
+> [Remove unnecessary code use in Next.js #2421](https://github.com/zeit/next.js/issues/2421)
+
+|name|type|base|zero-config|entry|hmr|
 |:-|:-|:-:|:-:|:-:|:-:|
 |`webpack`|dynamic||❌|`.js`|✔️|
 |`rollup`|static||❌|`.js`|❌|
@@ -16,10 +19,7 @@
 - [rollupjs.org](https://rollupjs.org/guide/en)
 - [react error process is not defined #487](https://github.com/rollup/rollup/issues/487)
 - [Inheriting class via a external extended export #231](https://github.com/rollup/rollup-plugin-commonjs/issues/231)
-- [Build failed when using specific dependencies #53](https://github.com/developit/microbundle/issues/53)
-> Hmm - it seems a pity to have to add configuration just because React isn't exporting things properly...
-- [Production bundle #115](https://github.com/developit/microbundle/issues/115)
-> For browsers u dont need this. Just use process.env.NODE_ENV checks, do not replace them before publishing and let consumers' bundlers do that.
+
 
 #### parcel
 - [parceljs.org](https://parceljs.org/)
@@ -32,3 +32,7 @@
 
 #### microbundle
 - [developit/microbundle](https://github.com/developit/microbundle)
+- [Build failed when using specific dependencies #53](https://github.com/developit/microbundle/issues/53)
+> Hmm - it seems a pity to have to add configuration just because React isn't exporting things properly...
+- [Production bundle #115](https://github.com/developit/microbundle/issues/115)
+> For browsers u dont need this. Just use process.env.NODE_ENV checks, do not replace them before publishing and let consumers' bundlers do that.
