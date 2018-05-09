@@ -4,7 +4,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "pre": "chin && yarn wp:dll",
+    "pre": "chin -i frame -o dist && yarn wp:dll",
     "mb:dev": "microbundle watch src --o dist/microbundle/dev --target browser",
     "mb:dev:watch": "yarn watch dist/microbundle/dev",
     "mb:pro": "microbundle build src --o dist/microbundle/pro --target browser",
@@ -27,7 +27,7 @@
     "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "chin": "^2.1.2",
+    "chin": "^3.0.5",
     "cross-env": "^5.1.4",
     "live-server": "^1.2.0",
     "microbundle": "^0.4.4",
