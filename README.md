@@ -1,4 +1,4 @@
-# mw-bundle
+# misao writing about bundle
 
 ![](https://user-images.githubusercontent.com/50838/27757629-93b23ba2-5e21-11e7-8b9c-3a8d69f5b5de.png)
 > [Remove unnecessary code use in Next.js #2421](https://github.com/zeit/next.js/issues/2421)
